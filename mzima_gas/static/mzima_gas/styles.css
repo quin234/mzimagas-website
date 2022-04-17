@@ -1,0 +1,428 @@
+body{
+    margin: 0;
+   font-size: lighter;
+    font-family: sans-serif;
+    background-color: white;
+    margin-bottom: 5px;
+}
+/* .gasimg > img{
+    
+    gap:1.5rem;
+    width: 100%;
+    border-radius:5px;
+    
+    
+   
+
+} */
+.holder{
+    background-color:antiquewhite;
+    color: black;
+    height: 40px;
+    width: 100%;
+    display: flex;
+   align-items: center;
+   font-weight: bolder;
+   position:fixed;
+
+} 
+.direct_order{
+    display: flex;
+    gap:15px;
+    margin-left: 15px;
+    position: fixed;
+    top: 45px;
+    left: 3em;
+    z-index: 1000;
+
+}
+.direct_order a:hover{
+    
+    transform: rotateZ(25deg);
+    
+}
+.text_header{
+ 
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    gap:5px;
+    justify-content: center;
+  
+}
+.text_header img{
+    border: 1px solid black;
+    border-radius:50px;
+    
+}
+.container{
+    margin-left:20px ;
+    margin-right:20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(133, 111, 127);
+}
+.container h4{
+    font-weight: lighter;
+   
+}
+.working_hours{
+  
+    display:flex;
+    justify-content:center;
+    border: solid 2px rgb(49, 46, 46);
+   max-width: fit-content;
+}
+.working_hours li{
+	
+	border-radius: 5px;
+   line-height:40px;
+    list-style: none;
+   
+
+    width:100%;
+
+   
+}
+video{
+    border-radius:5px ;
+}
+.talk_to_us{
+    
+    margin: 20px;
+
+}
+.talk_to_us a{
+    color: blue;
+    font-style:italic;
+}
+.crossplatform{
+    margin: 20px;
+}
+.social {
+display: flex;
+margin: 20px;
+gap :50px;
+position: relative;
+
+
+
+width: max-content;
+}
+.social a:hover{
+    
+    transform:rotateZ(25deg);
+    
+
+}
+/* sidebar html*/
+
+  /* css for linked html */
+
+#sidebar{
+    position:fixed;
+    top:40px;
+    display: block;
+	left:0em;    
+    max-width:50%;
+	height:100% ;
+    background-color:rgb(39, 30, 30);
+    transition: .6s;
+   
+}
+#test:checked ~ #sidebar{
+  left:0px;
+	
+
+}
+.testlabel{
+   	margin-top:  10px;    
+    position:fixed;
+    margin-left: 2em;
+    height: 2em;
+	display: flex;
+    align-items: center;
+	top:35px;
+}
+.testlabel:hover{
+
+    width: 20px;
+    height:20px;
+    border-left: 1px solid black;
+    transition: .4s;
+}
+.headerbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+    margin-left:20px;
+  
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+	height: 40px;
+    
+	background-color: rgb(109, 101, 107);
+	position:fixed;
+	top: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+#test{
+    display: none;
+    
+}
+.testlabel span,.testlabel span::before,
+.testlabel span::after{
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 20px;
+    border-radius: 2px;
+    position: relative;
+	}
+.testlabel span::before,.testlabel span::after{
+content: '';
+position: absolute;
+}
+.testlabel span::before{
+    bottom: 7px;
+}
+.testlabel span::after{
+    top: 7px;
+}
+	/* The close button for  the side bar nav */
+#close{
+		display: none;
+}
+
+.closelabel span::before,
+.closelabel span::after{
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 20px;
+    border-radius: 2px;
+    position: relative;
+   
+
+}
+.closelabel span::before,.closelabel span::after{
+    content: '';
+    position: absolute;
+    transform:rotate(45deg)
+}
+.closelabel span::after{
+  
+    transform: rotate(-45deg);
+}
+.direct_order{
+    display: flex;
+    gap:15px;
+    margin-left: 15px;
+
+}
+.direct_order a:hover{
+    
+    transform: rotateZ(25deg);
+    
+}
+.text_header{
+ 
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    gap:5px;
+    justify-content: center;
+  
+}
+.text_header img{
+    border: 1px solid black;
+    border-radius:5px;
+    
+}
+.mzimagasphoto{
+    width: 100%;
+    border-radius: 5px;
+
+
+}
+.Delivery{
+    font-weight:  normal;
+    margin:20px;
+
+
+}
+.talk_to_us{
+    
+    margin: 20px;
+
+}
+.talk_to_us a{
+    color: blue;
+    font-style:italic;
+}
+.crossplatform{
+    margin: 20px;
+}
+.social {
+display: flex;
+margin: 20px;
+gap :50px;
+position: relative;
+
+
+
+width: max-content;
+}
+.social a:hover{
+    
+    transform:rotateZ(25deg);
+    
+
+}
+
+/* sidebar html*/
+  .sidetalk li{
+    position:relative;
+    padding: 15px;
+  
+    width: 5rem;
+    transition: .4s;
+    list-style:none;
+    line-height:50px;
+ 
+   
+  } 
+  .whatsappus,.phone,.direction{
+      position :relative;
+      left :4rem;
+      top:-3.5rem;
+     transition: .5s;
+      padding: 15px;
+  }
+  .whatsappus:hover,.phone:hover,.direction:hover{
+    margin-left: 20px;
+  }
+
+  /* css for linked html */
+a{
+    color:white;
+    text-decoration: none;
+
+}
+#sidebar{
+    position:fixed;
+    top:40px;
+    display: block;
+	left:-50em;    
+    max-width:50%;
+	height:100% ;
+    background-color:rgb(39, 30, 30);
+    transition: .6s;
+    
+
+    
+
+}
+.starter_statement{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    font-size: large;
+    color: black;
+    padding: 30px;
+
+}
+#test:checked ~ #sidebar{
+  left:0px;
+	
+
+}
+.testlabel{
+   	margin-top:  10px;    
+    position:fixed;
+    margin-left: 2em;
+    height: 2em;
+	display: flex;
+    align-items: center;
+	top:35px;
+}
+.testlabel:hover{
+
+    width: 20px;
+    height:20px;
+    border-left: 1px solid black;
+    transition: .4s;
+}
+#test{
+    display: none;
+    
+}
+.testlabel span,.testlabel span::before,
+.testlabel span::after{
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 20px;
+    border-radius: 2px;
+    position: relative;
+	}
+.testlabel span::before,.testlabel span::after{
+content: '';
+position: absolute;
+}
+.testlabel span::before{
+    bottom: 7px;
+}
+.testlabel span::after{
+    top: 7px;
+}
+
+/* The close button for  the side bar nav */
+
+#close{
+		display: none;
+}
+.closelabel{
+  
+    position: fixed;
+    z-index: 1;
+    left: 2px;
+    top:80px;
+    background-color:white;
+}
+.closelabel span::before,.closelabel span::after{
+    content: '';
+    position: absolute;
+    transform:rotate(45deg)
+}
+.closelabel span::after{
+  
+    transform: rotate(-45deg);
+}
+@media(min-width:600px)
+{
+    .gasimg img{
+        display: flex;
+        
+    }
+ 
+.img1{
+    display:none;
+}
+    video,.mzimagasphoto{
+        max-width: 50%;
+        margin-left:20px;
+        
+    }
+    .working_hours{
+        float: right;
+        width: z;
+        margin-right:20px;
+        
+    }
+}
+
+    
